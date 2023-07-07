@@ -1,4 +1,5 @@
 import React from "react";
+import Chips from "./Chips";
 
 const ProjectItem = ({item}) => {
     return (
@@ -7,12 +8,10 @@ const ProjectItem = ({item}) => {
                 <div className="d-flex align-center">
                     <h4 className="mb-0 mt-0">{item.name}</h4>
                     {item.techno.map((x, i) => (
-                        <div style={{backgroundColor: "#FAD8D6", fontSize: 10}} className="pr-2 pl-2 pt-1 pb-1 ml-2 radius-8">
-                            {x}
-                        </div>
+                        <Chips name={x}/>
                     ))}
                 </div>
-                <p style={{color: "#858585"}}>{item.desc}</p>
+                <p className="secondaryTxt">{item.desc}</p>
             </div>
             {item.img && (
                 <img className="projectImage" src={item.img} alt="Project image"/>

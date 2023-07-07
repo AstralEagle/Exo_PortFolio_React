@@ -44,3 +44,6 @@ li > * {
     max-height: 150px;
     max-width: 150px;
 }
+.secondaryTxt {
+    color: #858585
+}
