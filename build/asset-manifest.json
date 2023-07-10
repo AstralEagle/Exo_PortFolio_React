@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e33992bc.css",
+    "main.js": "/static/js/main.7c51c19b.js",
+    "static/media/Groupomania.png": "/static/media/Groupomania.2fada9a4ea2ecfea2170.png",
+    "static/media/lyrics_run2.png": "/static/media/lyrics_run2.d8aa8525eb9e4706673e.png",
+    "static/media/morpion.png": "/static/media/morpion.9ad2779db687f1b60286.png",
+    "static/media/Sans titre.png": "/static/media/Sans titre.21286303b75f9263f424.png",
+    "index.html": "/index.html",
+    "main.e33992bc.css.map": "/static/css/main.e33992bc.css.map",
+    "main.7c51c19b.js.map": "/static/js/main.7c51c19b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e33992bc.css",
+    "static/js/main.7c51c19b.js"
+  ]
+}
